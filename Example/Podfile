@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AnalyticsWatchAdapter_Tests' do
+  pod 'AnalyticsWatchAdapter', :path => '../'
+  
+  
+end
