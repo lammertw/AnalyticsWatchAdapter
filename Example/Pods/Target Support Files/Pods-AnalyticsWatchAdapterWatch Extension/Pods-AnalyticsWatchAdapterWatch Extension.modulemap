@@ -1,0 +1,6 @@
+framework module Pods_AnalyticsWatchAdapterWatch_Extension {
+  umbrella header "Pods-AnalyticsWatchAdapterWatch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,6 +1,8 @@
 use_frameworks!
-target 'AnalyticsWatchAdapter_Tests' do
-  pod 'AnalyticsWatchAdapter', :path => '../'
-  
-  
+target 'AnalyticsWatchAdapter' do
+    pod 'GoogleAnalytics'
+    pod 'AnalyticsWatchAdapter', :path => '../'
+end
+target 'AnalyticsWatchAdapterWatch Extension' do
+    pod 'AnalyticsWatchAdapter', :path => '../'
 end

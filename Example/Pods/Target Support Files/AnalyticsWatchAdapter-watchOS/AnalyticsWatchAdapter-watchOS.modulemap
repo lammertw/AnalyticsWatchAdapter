@@ -1,0 +1,6 @@
+framework module AnalyticsWatchAdapter {
+  umbrella header "AnalyticsWatchAdapter-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

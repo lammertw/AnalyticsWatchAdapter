@@ -1,0 +1,23 @@
+PODS:
+  - AnalyticsWatchAdapter (0.1.0):
+    - AnalyticsWatchAdapter/Watch (= 0.1.0)
+  - AnalyticsWatchAdapter/Core (0.1.0)
+  - AnalyticsWatchAdapter/Watch (0.1.0):
+    - AnalyticsWatchAdapter/Core
+  - GoogleAnalytics (3.14.0)
+
+DEPENDENCIES:
+  - AnalyticsWatchAdapter (from `../`)
+  - GoogleAnalytics
+
+EXTERNAL SOURCES:
+  AnalyticsWatchAdapter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AnalyticsWatchAdapter: abcbb132479e4979bbc592779273d48a33351611
+  GoogleAnalytics: 9be1afdb8deeac4bb5f13ca7f7d3b9db2a1f43dc
+
+PODFILE CHECKSUM: c956d91321c3a6e2d68c5d82efaff1cb816dbabb
+
+COCOAPODS: 1.0.1
