@@ -42,7 +42,7 @@ At the moment of creating this library (June 2016) there is no watchos support f
     ss.source_files = 'AnalyticsWatchAdapter/Watch/Shared/Classes/**/*'
     ss.ios.source_files = 'AnalyticsWatchAdapter/Watch/iOS/Classes/**/*'
     ss.watchos.source_files = 'AnalyticsWatchAdapter/Watch/WatchOS/Classes/**/*'
-    ss.frameworks = 'WatchConnectivity'
+    ss.weak_frameworks = 'WatchConnectivity'
   end
 
 end
