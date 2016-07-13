@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AnalyticsWatchAdapter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An adapter to send analytics (like Google Analytics) from your Watch App'
 
 # This description is used to generate tags and improve search results.
